@@ -5,13 +5,13 @@ def prime?(num)
     return false
   end
 
-  numbers = 2...num-1
+  numbers = 2...num
   puts numbers.to_a
 
   numbers.each do |integer|
 
     if num % integer == 0
-      false
+      return false
     end
   end
    true
