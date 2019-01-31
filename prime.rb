@@ -11,7 +11,7 @@ numbers.each do |integer|
     return false
   elsif num % integer != 0
     return true
-    else
+  else
     return false
 end
 end
