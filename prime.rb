@@ -10,9 +10,10 @@ def prime?(num)
     end
   elsif num % integer == 0
     return true
+  end
   else
     return false
-
+  end
   end
 
 end
