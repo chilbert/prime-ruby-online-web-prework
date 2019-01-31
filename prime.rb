@@ -7,9 +7,12 @@ return false if num <= 1
 
 numbers.each do |integer|
 
-  if integer % integer == 0
+
+  if integer <= 1
     false
-  else
+  elseif integer % integer == 0
+    false
+  else 
     true
 end
 end
