@@ -5,11 +5,11 @@ def prime?(num)
 
 
 numbers.each do |integer|
-  if num % integer == 0
-    return false
-    break
+  if num % integer != 0
+    return true
+  end
     else
-    integer += 1
+    return false
 end
 end
 end
