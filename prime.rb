@@ -1,19 +1,13 @@
 
 def prime?(num)
-  numbers = 0..num
+  numbers = 2...num
   puts numbers.to_a
 
-return false if num <= 1
-
 numbers.each do |integer|
-
-
-  if integer <= 1
-    false
-  elseif integer % integer == 0
-    false
-  else
-    true
+  if num % integer == 0
+    return false
+    integer += 1
+  
 end
 end
 end
