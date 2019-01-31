@@ -8,7 +8,7 @@ numbers.each do |integer|
     return false
   elsif num % integer == 0
     return true
-  elsif
+  else
     return false
 end
 end
