@@ -8,7 +8,7 @@ def prime?(num)
   numbers = 0...num
   puts numbers.to_a
 
-  numbers.each do
+  numbers.each do |integer|
 
     if num % integer == 0
       false
