@@ -5,7 +5,7 @@ def prime?(num)
     false
   end
 
-  numbers = 0...num
+  numbers = 2...num
   puts numbers.to_a
 
   numbers.each do |integer|
