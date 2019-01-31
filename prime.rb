@@ -5,12 +5,9 @@ def prime?(num)
 
 return false if num <= 1
 
-
-while num <
-
 numbers.each do |num|
 
-  if num % num == 0
+  if num % 2 == 0
     false
   else
     true
