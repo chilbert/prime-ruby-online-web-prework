@@ -11,7 +11,7 @@ numbers.each do |num|
   else
     true
 end
-  
+
 end
 
 end
