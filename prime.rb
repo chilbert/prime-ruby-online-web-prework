@@ -1,18 +1,20 @@
 
 def prime?(num)
+
+  if num <= 1
+    false
+  end
+  
   numbers = 0...num
   puts numbers.to_a
 
   numbers.each do
 
-    if integer <= 1
+    if num % integer == 0
       false
     end
-  elsif num % integer == 0
-    return true
-  end
   else
-    return false
+    return true
   end
   end
 
