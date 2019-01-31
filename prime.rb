@@ -6,10 +6,10 @@ def prime?(num)
 numbers.each do |integer|
   if integer <= 1
     return false
+  end
   elsif num % integer == 0
     return true
-  else
+  end
+end
     return false
-end
-end
 end
