@@ -7,7 +7,7 @@ numbers.each do |integer|
   if num % integer == 0
     return false
     integer += 1
-  
+
 end
 end
 end
