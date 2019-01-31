@@ -6,7 +6,7 @@ def prime?(num)
 numbers.each do |integer|
   if integer <= 1
     return false
-    
+
   elsif num % integer == 0
     return true
   end
