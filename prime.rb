@@ -10,7 +10,6 @@ numbers.each do |integer|
   elsif num % integer == 0
     return true
   end
-end
     return false
 end
 end
