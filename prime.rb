@@ -1,7 +1,9 @@
 
 def prime?(num)
-  numbers = 2...num
+  numbers = 0..num
   puts numbers.to_a
+
+  return false if num <= 1 
 
 
 numbers.each do |integer|
