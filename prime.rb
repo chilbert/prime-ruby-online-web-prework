@@ -1,6 +1,6 @@
 
 def prime?(num)
-  numbers = 0...num - 1
+  numbers = 0...num
   puts numbers.to_a
 
   numbers.each do |integer|
@@ -12,6 +12,7 @@ def prime?(num)
   end
 else
   return false
+end
 end
 end
 end
