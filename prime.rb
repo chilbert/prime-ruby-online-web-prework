@@ -12,7 +12,7 @@ numbers.each do |integer|
     false
   elseif integer % integer == 0
     false
-  else 
+  else
     true
 end
 end
