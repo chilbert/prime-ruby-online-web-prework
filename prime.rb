@@ -5,9 +5,9 @@ def prime?(num)
 
 return false if num <= 1
 
-numbers.each do |num|
+numbers.each do |integer|
 
-  if num % 2 == 0
+  if integer % 2 == 0
     false
   else
     true
