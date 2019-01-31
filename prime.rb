@@ -1,12 +1,11 @@
 
 def prime?(num)
-  numbers = 0..num
-  puts numbers.to_a
+  numbers = (0..num - 1).to_a
 
-numbers.each do |integer|
+  numbers.each do |integer|
   if integer <= 1
     return false
-
+    
   elsif num % integer == 0
     return true
   end
