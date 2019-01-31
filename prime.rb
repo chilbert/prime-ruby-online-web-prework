@@ -13,7 +13,7 @@ def prime?(num)
     if num % integer == 0
       false
     end
-  else
-    return true
+  end
+   true
   end
 end
